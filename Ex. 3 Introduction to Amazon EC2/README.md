@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Ashwath p
+* **Register Number**: 212224220012
+* **Date of Submission**: 21-08-2026
 
 ---
 
@@ -98,33 +98,25 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
+1. Logged in to the AWS Management Console and navigated to the Amazon EC2 Dashboard to explore available services and resources.
+2. Launched a new EC2 instance using the Amazon Linux 2 AMI and selected the t2.micro instance type. Created a key pair and configured the necessary instance settings.
+3. Configured a security group to allow SSH access on port 22 from my IP address and HTTP access on port 80 from anywhere.
+4. Connected to the running EC2 instance using SSH through the terminal with the downloaded key pair. Verified the connection and executed basic Linux commands.
+5. Monitored the instance performance using the Monitoring tab, observed CPU and network metrics, performed start, stop, and reboot operations, and finally terminated the instance after completing the experiment.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
-
-(Insert Screenshot Here)
-
----
+<img width="1913" height="961" alt="image" src="https://github.com/user-attachments/assets/8b41ba37-b0db-45e4-a69e-2f44f628f2fa" />
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1915" height="952" alt="image" src="https://github.com/user-attachments/assets/a5e061cd-95ee-4139-a3e6-b92954789505" />
 
----
 
 ### Screenshot 3: Instance Monitoring / Status
+<img width="1910" height="976" alt="image" src="https://github.com/user-attachments/assets/269b9388-1fa7-4cd2-a16f-1ec813c5fe45" />
 
-(Insert Screenshot Here)
-
----
 
 ## Result 
 
