@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:Ashwath p
+* **Register Number**: 212224220012
+* **Date of Submission**: 20-08-2026
 
 ---
 
@@ -78,35 +78,33 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. Explore Amazon EBS (Elastic Block Store) in the EC2 dashboard and understand different volume types such as General Purpose SSD (gp2/gp3), Provisioned IOPS SSD, and HDD-based volumes. These are used for persistent block-level storage.
+2. Create a new EBS volume by selecting the required size and type. Ensure the volume is created in the same Availability Zone as the EC2 instance for successful attachment.
+3. Attach the created EBS volume to the running EC2 instance as an additional block storage device. This makes the volume accessible to the instance.
+4. Connect to the EC2 instance using SSH, format the volume with a file system (e.g., ext4), and mount it to a directory such as /mnt/ebs or /data for usage.
+5. Store files in the mounted volume and verify persistence by rebooting the instance. The data remains intact, showing that EBS provides durable and persistent storage.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1914" height="963" alt="Screenshot 2026-08-20 114147" src="https://github.com/user-attachments/assets/6a3eb4e5-f502-49c3-8e2f-9e9fb57d493b" />
 
----
+
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
 
----
+<img width="1919" height="1017" alt="Screenshot 2026-08-20 115532" src="https://github.com/user-attachments/assets/e6ded84c-cdd6-4986-b517-8ad336975b72" />
+
+
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
 
----
+<img width="1918" height="902" alt="Screenshot 2026-03-11 155250" src="https://github.com/user-attachments/assets/c3727fec-1eb9-4443-b975-1d442cf26086" />
+
 
 ## Result / Conclusion
 
